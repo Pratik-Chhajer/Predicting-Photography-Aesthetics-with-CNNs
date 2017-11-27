@@ -1,5 +1,35 @@
 # Predicting Photography Aesthetics with CNNs
 
+### Code Structure
+```bash
+  - Predicting-Photography-Aesthetics-with-CNNs
+  	| --- accuracy
+		| --- accuracy1.txt
+		| --- accuracy2.txt
+		| --- accuracy3.txt
+	| --- model
+		| --- model1.h5
+		| --- model2.h5
+		| --- model3.h5
+	| --- dataset
+		| --- training
+		| --- testing
+	| --- scripts
+		| --- evaluate.py
+		| --- main.py
+		| --- model1.py
+		| --- model2.py
+		| --- model3.py
+	| --- test_images
+		| --- image1_name.jpg
+		| --- image2_name.jpg
+		| --- image3_name.jpg
+		| --- image4_name.jpg
+	| --- testing.txt
+	| --- training.txt
+	| --- requirements.txt
+```
+
 ### Installation
 
 First, clone the repository
@@ -9,20 +39,19 @@ Next, install the required python3 packages:
 pip3 install -r requirements.txt
 ```
 
-Now to classify any new images put all your image inside folder named **test_images**
+Now to classify any new images put all your image inside folder named **test_images** and run below code:-
 ```bash
 python3 scripts/main.py
 ```
 It will give output like this:-
 
 ```bash
-image1_nmae 	 3
+image1_name 	 3
 image2_name 	 2
 image3_name 	 2
 image4_name 	 5
 ```
-
-
+From above output we can see that image1_name has been given 1 star(Poor) and image4_name has been given 5 star(excellent)
 
 To evaluate our CNN models run:-
 ```bash
