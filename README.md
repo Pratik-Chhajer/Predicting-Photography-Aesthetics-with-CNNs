@@ -2,8 +2,6 @@
 
 ![](1.png)
 
-**Sample Ratings**
-
 ### Dataset and Model
 First download **dataset** from [**here**](https://drive.google.com/file/d/1iFzhGZwYpnDVpPtJ3XBLGj94NK3NIDNV/view?usp=sharing) and **models** from [**here**](https://drive.google.com/file/d/1zGuc2CGvAARdacGebHv56cYDQuwg_3hw/view?usp=sharing) and place it as shown in below directory structure.
 
